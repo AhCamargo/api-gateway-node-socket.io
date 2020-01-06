@@ -1,0 +1,27 @@
+{
+  "name": "api-gateway-node-socket.io",
+  "version": "1.0.0",
+  "description": "create an api gateway for socket.io",
+  "main": "proxy.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhCamargo/api-gateway-node-socket.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhCamargo/api-gateway-node-socket.io/issues"
+  },
+  "homepage": "https://github.com/AhCamargo/api-gateway-node-socket.io#readme",
+  "dependencies": {
+    "http-proxy": "^1.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
